@@ -1,0 +1,22 @@
+# .NET Build and Output Files
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.dotnet_home/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+.eslintcache
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
