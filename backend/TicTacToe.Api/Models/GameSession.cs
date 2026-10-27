@@ -24,3 +24,4 @@ public class GameSession
         UpdatedAt = DateTime.UtcNow;
     }
 }
+

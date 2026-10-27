@@ -7,3 +7,4 @@ public class MakeMoveRequest
     public int? Column { get; set; }
     public int? CellIndex { get; set; }
 }
+

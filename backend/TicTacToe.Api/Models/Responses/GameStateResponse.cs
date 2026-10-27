@@ -13,3 +13,4 @@ public class GameStateResponse
     public bool CanUndo { get; set; }
     public Scoreboard Scoreboard { get; set; } = new();
 }
+

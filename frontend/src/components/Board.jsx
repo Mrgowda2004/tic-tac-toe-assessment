@@ -25,3 +25,4 @@ export default function Board({ board, winningCells, onCellClick, disabled, curr
     </div>
   );
 }
+

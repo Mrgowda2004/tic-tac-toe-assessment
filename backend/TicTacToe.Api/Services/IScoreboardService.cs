@@ -9,3 +9,4 @@ public interface IScoreboardService
     void RecordDraw();
     void Reset();
 }
+

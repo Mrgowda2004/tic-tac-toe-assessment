@@ -7,3 +7,4 @@ public class Scoreboard
     public int Draws { get; set; }
     public int TotalGames => XWins + OWins + Draws;
 }
+

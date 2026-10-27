@@ -10,3 +10,4 @@ public class MoveRecord
     public string PositionDisplay => $"Row {Row + 1}, Column {Column + 1}";
     public DateTime Timestamp { get; set; } = DateTime.UtcNow;
 }
+

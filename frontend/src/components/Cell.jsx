@@ -18,3 +18,4 @@ export default function Cell({ value, isWinning, onClick, disabled, previewSymbo
     </button>
   );
 }
+

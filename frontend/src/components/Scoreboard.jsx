@@ -59,3 +59,4 @@ export default function Scoreboard({ scoreboard, onResetScoreboard, isResetting 
     </div>
   );
 }
+

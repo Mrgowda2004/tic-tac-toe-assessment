@@ -235,3 +235,4 @@ As specified in the assessment guidelines, AI tools were leveraged to accelerate
 1. **Persistent Database:** Swap in SQLite via Entity Framework Core for cross-process persistence.
 2. **Online Multiplayer:** Add ASP.NET Core SignalR hub for real-time WebSocket communication between two remote players.
 3. **Difficulty Levels:** Add configurable computer difficulties (Easy: Random, Medium: Current Heuristic, Hard: Minimax with alpha-beta pruning).
+

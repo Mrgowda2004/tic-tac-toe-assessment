@@ -39,3 +39,4 @@ public class ScoreboardServiceTests
         Assert.Equal(0, scoreboard.TotalGames);
     }
 }
+

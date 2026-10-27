@@ -11,3 +11,4 @@ public interface IGameService
     (bool Success, string? ErrorMessage, GameStateResponse? Response) UndoMove(Guid id);
     (bool Success, string? ErrorMessage, GameStateResponse? Response) ResetGame(Guid id);
 }
+

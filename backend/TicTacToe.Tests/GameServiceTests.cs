@@ -283,3 +283,4 @@ public class GameServiceTests
         Assert.Contains("not permitted once the game has concluded", error);
     }
 }
+

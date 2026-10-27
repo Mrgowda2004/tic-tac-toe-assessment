@@ -29,3 +29,4 @@ export default function ModeSelector({ currentMode, onSelectMode, disabled }) {
     </div>
   );
 }
+

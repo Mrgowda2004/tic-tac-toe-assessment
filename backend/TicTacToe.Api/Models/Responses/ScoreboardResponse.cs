@@ -7,3 +7,4 @@ public class ScoreboardResponse
     public int Draws { get; set; }
     public int TotalGames { get; set; }
 }
+

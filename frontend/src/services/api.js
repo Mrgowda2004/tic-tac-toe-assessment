@@ -2,12 +2,17 @@ const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
 async function handleResponse(response) {
   if (!response.ok) {
-    let errorDetail = 'An error occurred';
+    let errorDetail = `HTTP ${response.status}`;
     try {
-      const data = await response.json();
-      errorDetail = data.message || data.title || JSON.stringify(data);
+      const text = await response.text();
+      try {
+        const data = JSON.parse(text);
+        errorDetail = data.message || data.title || JSON.stringify(data);
+      } catch {
+        if (text) errorDetail = text;
+      }
     } catch {
-      errorDetail = await response.text();
+      // Response body could not be read
     }
     throw new Error(errorDetail || `HTTP ${response.status}`);
   }
@@ -67,3 +72,4 @@ export const api = {
     return handleResponse(res);
   },
 };
+

@@ -91,3 +91,4 @@ public class ComputerPlayerServiceTests
         Assert.Contains(move!.Value, new[] { 1, 3, 5, 7 });
     }
 }
+
